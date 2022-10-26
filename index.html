@@ -6,16 +6,16 @@
 <link href="./style.css" rel="stylesheet">
 </head>
 
-<body onload="init();">
+<body>
 <table class="calculadora">
     <tr>
         <td colspan="4"><input name="display" type="text" id="display"></td>
     </tr>
     <tr>
-        <td><button id="siete" onclick="display_numeros(7)">7</button></td><td><button id="ocho" onclick="display_numeros(8)">8</button></td><td><button id="nueve" onclick="display_numeros(9)">9</button></td><td><button id="division">/</button></td>
+        <td><button id="siete" onclick="display_numeros(7)">7</button></td><td><button id="ocho" onclick="display_numeros(8)">8</button></td><td><button id="nueve" onclick="display_numeros(9)">9</button></td><td><button id="division" onclick="dividir()">/</button></td>
     </tr>
     <tr>
-        <td><button id="cuatro" onclick="display_numeros(4)">4</button></td><td><button id="cinco" onclick="display_numeros(5)">5</button></td><td><button id="seis" onclick="display_numeros(6)">6</button></td><td><button id="multiplicacion">*</button></td>
+        <td><button id="cuatro" onclick="display_numeros(4)">4</button></td><td><button id="cinco" onclick="display_numeros(5)">5</button></td><td><button id="seis" onclick="display_numeros(6)">6</button></td><td><button id="multiplicacion" onclick="multiplicar()">*</button></td>
     </tr>
     <tr>
         <td><button id="uno" onclick="display_numeros(1)">1</button></td><td><button id="dos"onclick="display_numeros(2)">2</button></td><td><button id="tres" onclick="display_numeros(3)">3</button></td><td><button id="resta" onclick="restar()">-</button></td>
